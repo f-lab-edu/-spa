@@ -50,7 +50,7 @@ export default class Portfolio {
         console.log("프로젝트 갯수", this.projects.length);
         // 기존 portfolio-container를 찾거나 없으면 생성
         let portfolioContainer = document.getElementById('portfolio-container');
-
+        // 질문 1 : 현재 h1, p 태그가 중복되서 렌더링 되고 있는데 이유를 모르겠습니다.
         if (!portfolioContainer) {
             console.log("portfolio-container 없음");
             // 없을 경우에만 새로 생성
