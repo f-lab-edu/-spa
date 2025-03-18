@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <nav>
+            <a href="/" class="nav-link" data-link>About</a>
+            <a href="/portfolio" class="nav-link" data-link>Portfolio</a>  
+            <!-- data-link가 있는 이유는 페이지 이동시 새로고침되지 않도록 하기 위함 -->
+        </nav>
+    </header>
+    <!-- 페이지 컨텐츠가 동적으로 렌더링될 컨테이너 -->
+    <main id="app"></main>
+    
+    <footer>
+        <p>&copy; 2025 박지원 포트폴리오</p>
+    </footer>
+    <!-- 자바스크립트 파일을 모듈로 불러옴 -->
+    <!-- ES6 모듈 시스템을 사용 -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
